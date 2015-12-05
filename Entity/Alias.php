@@ -1,6 +1,6 @@
 <?php
 
-namespace TroisSix\MysqlPostfixAdminBundle\Entity;
+namespace Electro2\MysqlPostfixAdminBundle\Entity;
 
 use Doctrine\ORM\Mapping as ORM;
 
@@ -8,7 +8,7 @@ use Doctrine\ORM\Mapping as ORM;
  * Alias
  *
  * @ORM\Table(name="alias", indexes={@ORM\Index(name="domain", columns={"domain"})})
- * @ORM\Entity(repositoryClass="TroisSix\MysqlPostfixAdminBundle\Repository\AliasRepository")
+ * @ORM\Entity(repositoryClass="ElectrO2\MysqlPostfixAdminBundle\Repository\AliasRepository")
  */
 class Alias
 {
