@@ -11,7 +11,7 @@ Installation / Usage
 Install with composer :
 
 ```sh
-$ composer require electrO2/mysql-postfix-admin-bundle
+$ composer require electro2/mysql-postfix-admin-bundle
 ```
 
 Configuration
@@ -23,7 +23,7 @@ Configuration
 public function registerBundles()
 {
     ...
-    new Electro2\MysqlPostfixAdminBundle\ElectrO2MysqlPostfixAdminBundle(),
+    new Electro2\MysqlPostfixAdminBundle\electro2MysqlPostfixAdminBundle(),
     ...
 }
 ```
