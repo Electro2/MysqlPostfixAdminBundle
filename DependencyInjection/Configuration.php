@@ -1,6 +1,6 @@
 <?php
 
-namespace TroisSix\MysqlPostfixAdminBundle\DependencyInjection;
+namespace Electro2\MysqlPostfixAdminBundle\DependencyInjection;
 
 use Symfony\Component\Config\Definition\Builder\TreeBuilder;
 use Symfony\Component\Config\Definition\ConfigurationInterface;
@@ -18,7 +18,7 @@ class Configuration implements ConfigurationInterface
     public function getConfigTreeBuilder()
     {
         $treeBuilder = new TreeBuilder();
-        $rootNode = $treeBuilder->root('trois_six_mysql_postfix_admin');
+        $rootNode = $treeBuilder->root('electro_2_mysql_postfix_admin');
 
         $rootNode
             ->children()
