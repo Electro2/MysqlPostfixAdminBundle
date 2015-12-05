@@ -1,5 +1,5 @@
 {
-    "name": "electrO2/mysql-postfix-admin-bundle",
+    "name": "electro2/mysql-postfix-admin-bundle",
     "description": "Symfony 2 bundle that helps you manage Postfix Admin MySQL tables",
     "type": "symfony-bundle",
     "require": {
