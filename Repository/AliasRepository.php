@@ -1,9 +1,9 @@
 <?php
 
-namespace TroisSix\MysqlPostfixAdminBundle\Repository;
+namespace Electro2\MysqlPostfixAdminBundle\Repository;
 
 use Doctrine\ORM\EntityRepository;
-use TroisSix\MysqlPostfixAdminBundle\Entity\Alias;
+use Electro2\MysqlPostfixAdminBundle\Entity\Alias;
 
 class AliasRepository extends EntityRepository
 {
