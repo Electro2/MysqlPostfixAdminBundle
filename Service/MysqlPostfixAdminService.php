@@ -1,12 +1,12 @@
 <?php
 
-namespace TroisSix\MysqlPostfixAdminBundle\Service;
+namespace Electro2\MysqlPostfixAdminBundle\Service;
 
 use Doctrine\ORM\EntityManager;
-use TroisSix\MysqlPostfixAdminBundle\Entity\Alias;
-use TroisSix\MysqlPostfixAdminBundle\Entity\Domain;
-use TroisSix\MysqlPostfixAdminBundle\Entity\Mailbox;
-use TroisSix\MysqlPostfixAdminBundle\Repository\AliasRepository;
+use Electro2\MysqlPostfixAdminBundle\Entity\Alias;
+use Electro2\MysqlPostfixAdminBundle\Entity\Domain;
+use ElEctro2\MysqlPostfixAdminBundle\Entity\Mailbox;
+use Electro2\MysqlPostfixAdminBundle\Repository\AliasRepository;
 
 class MysqlPostfixAdminService
 {
@@ -70,7 +70,7 @@ class MysqlPostfixAdminService
 
     /**
      * @param string $domain
-     * @return \TroisSix\MysqlPostfixAdminBundle\Entity\Mailbox[]
+     * @return \Electro2\MysqlPostfixAdminBundle\Entity\Mailbox[]
      */
     public function getMailboxesByDomain($domain)
     {
@@ -83,7 +83,7 @@ class MysqlPostfixAdminService
     /**
      * @param string $domain
      * @param bool $ignoreMailboxes set to true to ignore aliases with same address as goto
-     * @return \TroisSix\MysqlPostfixAdminBundle\Entity\Alias[]
+     * @return \Electro2\MysqlPostfixAdminBundle\Entity\Alias[]
      */
     public function getAliasesByDomain($domain, $ignoreMailboxes = false)
     {
@@ -102,6 +102,6 @@ class MysqlPostfixAdminService
      */
     public function getRepositoryFor($entity)
     {
-        return $this->em->getRepository('\\TroisSix\\MysqlPostfixAdminBundle\\Entity\\' . $entity);
+        return $this->em->getRepository('\\Electro2\\MysqlPostfixAdminBundle\\Entity\\' . $entity);
     }
 }
