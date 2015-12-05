@@ -1,19 +1,19 @@
 {
-    "name": "trois-six/mysql-postfix-admin-bundle",
+    "name": "electrO2/mysql-postfix-admin-bundle",
     "description": "Symfony 2 bundle that helps you manage Postfix Admin MySQL tables",
     "type": "symfony-bundle",
     "require": {
         "doctrine/orm": "~2.2,>=2.2.3,<2.5",
-        "symfony/symfony": "2.6.*"
+        "symfony/symfony": "2.8.*"
     },
     "license": "MIT",
     "authors": [
         {
-            "name": "Rémi Garcia",
-            "email": "remi.garcia.pro@gmail.com"
+            "name": "Rémi Garcia & Blaise Barré",
+            "email": "blaise.barre@gmail.com"
         }
     ],
     "autoload": {
-        "psr-4": { "TroisSix\\MysqlPostfixAdminBundle\\": "" }
+        "psr-4": { "Electro2\\MysqlPostfixAdminBundle\\": "" }
     }
 }
