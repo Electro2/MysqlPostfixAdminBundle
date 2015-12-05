@@ -1,4 +1,4 @@
-TroisSix\MysqlPostfixAdminBundle
+Electro2\MysqlPostfixAdminBundle
 ========================================
 
 Helps you manage Postfix Admin MySQL tables.
@@ -11,7 +11,7 @@ Installation / Usage
 Install with composer :
 
 ```sh
-$ composer require trois-six/mysql-postfix-admin-bundle
+$ composer require electrO2/mysql-postfix-admin-bundle
 ```
 
 Configuration
@@ -23,7 +23,7 @@ Configuration
 public function registerBundles()
 {
     ...
-    new TroisSix\MysqlPostfixAdminBundle\TroisSixMysqlPostfixAdminBundle(),
+    new Electro2\MysqlPostfixAdminBundle\ElectrO2MysqlPostfixAdminBundle(),
     ...
 }
 ```
@@ -31,7 +31,7 @@ public function registerBundles()
 2. Add to your `app/config/config.yml` the postfix database configuration : (replace the values by the ones you need)
 
 ```yaml
-trois_six_mysql_postfix:
+electro_2_mysql_postfix:
    connection:
        host:     database_host
        user:     database_user
